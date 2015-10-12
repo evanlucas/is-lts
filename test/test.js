@@ -6,5 +6,5 @@ var isLTS = require('../')
 test('should work for lts versions', function(t) {
   t.plan(1)
 
-  t.equal(isLTS(), !!process.release.lts)
+  t.equal(isLTS(), !!(process.release || {}).lts)
 })
