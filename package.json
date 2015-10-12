@@ -1,0 +1,23 @@
+{
+  "name": "is-lts",
+  "version": "1.0.0",
+  "description": "Check if the current node version is a LTS release",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js --cov"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "~2.1.0"
+  },
+  "license": "MIT",
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanlucas/is-lts"
+  },
+  "homepage": "https://github.com/evanlucas/is-lts",
+  "bugs": {
+    "url": "https://github.com/evanlucas/is-lts/issues"
+  }
+}
